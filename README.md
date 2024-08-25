@@ -30,3 +30,21 @@ No exemplo acima, realiza-se uma soma simples, mas também é possível realizar
 `resultado = (valor1 * valor2) - (valor3 / valor4) + pow(valor5, 2)`
 
 Este exemplo, realiza a multiplicação do `valor1` por `valor2`, subtraindo o resultado da divisão de `valor3` por `valor4`, e somando o quadrado de `valor5`. Isso demonstra como é possível combinar diversas operações para atribuir um resultado mais complexo a uma variável.
+
+# 2. Operações
+
+Em Python, como em outras linguagens, pode-se realizar operações aritméticas, relacionais (booleanas) e lógicas sobre os valores guardados nas variáveis.
+
+# 2.1. Operações Aritméticas
+
+As operações aritméticas são fundamentais para a resolução de equações. Elas incluem a adição, subtração, divisão e multiplicação, que, apesar de parecerem simples, são essenciais para a realização de qualquer cálculo matemático. A seguir, mostram-se as principais operações aritméticas nativas do Python.
+
+| Operação      | Operador | Exemplo           |
+| ------------- | -------- | ----------------- |
+| Adição        |     +    | 5 + 3 = 8         |
+| Subtração     |     -    | 8 - 3 = 5         |
+| Divisão       |     /    | 10 / 3 = 3.333... |
+| Multiplicação |     *    | 5 * 3 = 15        |
+| Exponenciação |     **   | 5 ** 2 = 25       |
+| Div. inteira  |     //   | 10 // 3 = 3       |
+| Resto da div. |     %    | 10 % 3 = 1        |
