@@ -131,3 +131,24 @@ print("mundo!")
 ```
 
 Isso exibirá: `Olá mundo!` (na mesma linha).
+
+# 4. Função Input
+
+A função `input()` é usada para ler a entrada do usuário como uma string. Quando utiliza-se a função `input()`, o programa pausa a execução e espera o usuário digitar algo e pressionar Enter. Por exemplo:
+
+```
+nome = input("Qual é o seu nome? ")
+print("Olá,", nome)
+```
+
+Nesse exemplo, o programa pergunta ao usuário "Qual é o seu nome?", e o valor digitado é armazenado na variável `nome`. Em seguida, ele exibe "Olá, [nome]".
+
+# 4.1. Conversão
+
+Mesmo que o usuário digite um número, o valor retornado será uma string. Se precisar de um número, é necessário converter a entrada com funções como `int()` ou `float()`:
+
+```
+idade = int(input("Quantos anos você tem? "))
+```
+
+Aqui, a entrada do usuário será convertida para um inteiro.
