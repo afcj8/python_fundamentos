@@ -61,3 +61,38 @@ Os símbolos ==, !=, >, >=, < e <= são utilizados em afirmações, que podem se
 | Maior-igual |    >=    | 5 >= 5 --> True   |
 | Menor       |    <     | 5 < 2 --> False   |
 | Menor-igual |    <=    | 10 <= 3 --> False |
+
+# 2.3. Operações Lógicas
+
+Essas afirmações de True ou False podem ser modificadas e relacionadas usando operações lógicas, sendo elas and, or e not.
+
+# 2.3.1 Operador and
+
+Permite que a expressão seja verdadeira quando ambos os valores lógicos sejam verdadeiros, resulta em falso caso contrário.
+
+| a | b | a and b |
+| - | - | ------- |
+| v | v | v       |
+| v | f | f       |
+| f | v | f       |
+| f | f | f       |
+
+# 2.3.2 Operador or
+
+Nesse caso, a condição é verdadeira quando qualquer um dos valores for verdadeiro. A condição é falsa em apenas um caso, quando ambos forem falsos.
+
+| a | b | a or b  |
+| - | - | ------- |
+| v | v | v       |
+| v | f | v       |
+| f | v | v       |
+| f | f | f       |
+
+# 2.3.3 Operador not
+
+A negação realiza uma inversão no valor lógico ao qual a operação é realizada. Caso seja falso o resultado é verdadeiro, caso verdadeiro o resultado é falso.
+
+| a | not a   |
+| - | ------- |
+| v | f       |
+| f | v       |
