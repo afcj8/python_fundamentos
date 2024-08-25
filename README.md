@@ -48,3 +48,16 @@ As operações aritméticas são fundamentais para a resolução de equações. 
 | Exponenciação |     **   | 5 ** 2 = 25       |
 | Div. inteira  |     //   | 10 // 3 = 3       |
 | Resto da div. |     %    | 10 % 3 = 1        |
+
+# 2.2. Operações Relacionais (Booleanas)
+
+Os símbolos ==, !=, >, >=, < e <= são utilizados em afirmações, que podem ser verdadeiras ou falsas. Se a afirmação for verdadeira, o programa devolve True, senão ele devolve False, seguindo a lógica abaixo:
+
+| Operação    | Símbolo  | Exemplo           |
+| ----------- | -------- | ----------------- |
+| Igual       |    ==    | 5 == 3 --> False  |
+| Diferente   |    !=    | 8 != 3 --> True   |
+| Maior       |    >     | 10 > 3 --> True   |
+| Maior-igual |    >=    | 5 >= 5 --> True   |
+| Menor       |    <     | 5 < 2 --> False   |
+| Menor-igual |    <=    | 10 <= 3 --> False |
