@@ -348,7 +348,10 @@ As estruturas de repetição são ferramentas essenciais para a execução de ta
 
 Listas são coleções ordenadas e mutáveis que permitem armazenar vários elementos em uma única variável. Esses elementos podem ser de qualquer tipo, como inteiros, strings, ou até mesmo outras listas. As listas são delimitadas por colchetes `[]` e os elementos são separados por vírgulas, conforme o exemplo abaixo:
 
-`lista = [1, "Python", 3.14]`
+```
+lista = []  # Lista vazia
+lista = [1, "Python", 3.14]
+```
 
 Em Python, a lista é um objeto do tipo `list`, é uma estrutura de dados nativa da linguagem. Cada elemento em uma lista é associado a um índice, que começa em `0` e vai até `n-1`, onde `n` é número total de elementos:
 
