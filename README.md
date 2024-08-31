@@ -393,6 +393,12 @@ lista[1] = 20   # Modifica o valor no índice 1 para 20
 
 # 9.3. Principais Métodos
 
+Métodos são funções associadas a objetos. No caso das listas, esses métodos são invocados diretamente a partir do objeto lista.
+
+`lista.metodo()`
+
+**Nota:** Muitos métodos de listas são mutáveis, ou seja, modificam a própria lista. A seguir, são apresentados alguns dos principais métodos:
+
 - append(): Adiciona um elemento ao final da lista.
 
 ```
@@ -465,7 +471,55 @@ lista.reverse()
 print(lista)    # [1, 9, 1, 8, 5, 3, 2, 1]
 ```
 
-# 9.4. Iterando Listas
+# 9.4. Fuções Sobre Listas
+
+Funções são chamadas independentemente de objetos e podem receber listas como argumentos. Elas não pertencem diretamente ao objeto lista, mas podem operar sobre ele.
+
+`funcao(lista)`
+
+A maioria das funções que operam em listas não modifica a lista original, mas retornam um novo valor. A seguir, são apresentadas algumas das principais funções:
+
+ - len(): Retorna o número de elementos da lista.
+
+```
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+tamanho = len(lista)
+print(tamanho)  # 7
+```
+
+- max(): Retorna o maior valor da lista.
+
+```
+lista = [1, 3, 4, 6, 8, 9, 10]
+maior = max(lista)
+print(maior)  # 10
+```
+
+- min(): Retorna o menor valor da lista.
+
+```
+lista = [1, 3, 4, 6, 8, 9, 10]
+menor = min(lista)
+print(menor)  # 1
+```
+
+- sum(): Retorna a soma dos elementos da lista (válido para listas numéricas).
+
+```
+lista = [1, 3, 4, 6, 8, 9, 10]
+soma = sum(lista)
+print(soma)  # 41
+```
+
+- sorted(): Retorna uma nova lista com os elementos ordenados.
+
+```
+lista = [10, 3, 4, 6, 8, 9, 1]
+ordem = sorted(lista)
+print(ordem)  # [1, 3, 4, 6, 8, 9, 10]
+```
+
+# 9.5. Iterando Listas
 
 Para percorrer os elementos de uma lista, utiliza-se um loop `for`. O código a seguir define uma lista chamada `frutas` com cinco strings, cada uma representando uma fruta. O loop `for` itera sobre cada elemento da lista, atribuindo o valor atual à variável `fruta` em cada iteração. O comando `print` é então usado para exibir o valor de `fruta`. O resultado é que cada fruta na lista é impressa em uma linha separada.
 
@@ -543,3 +597,6 @@ print(tupla)    # (1, 2, 3, 4, 5)
 ```
 
 Por ser imutável, a tupla é uma estrutura de dados mais rígida e segura, ideal para armazenar informações que devem permanecer inalteradas ao longo da execução do programa.
+
+# 12. Funções (def)
+
