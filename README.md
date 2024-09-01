@@ -2,41 +2,6 @@
 
 Python é uma linguagem de programação de alto nível e de uso geral, amplamente empregada em diversas áreas, como desenvolvimento web, ciência de dados, automação de tarefas e Machine Learning. Criada por Guido van Rossum e lançada em 1991, Python se destaca por sua filosofia de projeto, que enfatiza a legibilidade do código através de uma sintaxe clara e o uso de indentação significativa. Com tipagem dinâmica e suporte a gerenciamento automático de memória, Python oferece flexibilidade tanto para iniciantes quanto para desenvolvedores experientes, tornando-se uma escolha popular em projetos de todos os tipos e complexidades.
 
-# 3. Função Print
-
-A função `print()` é usada para exibir mensagens ou dados na tela. Ela pode exibir strings (texto), números, variáveis e até mesmo resultados de expressões. Por exemplo:
-
-`print("Olá, mundo!")`
-
-Esse código exibe a mensagem "Olá, mundo!" na tela.
-
-**Importante:** Pode-se passar vários itens separados por vírgula, e o `print()` irá exibi-los na mesma linha, separados por um espaço:
-
-`print("A soma de 2 + 2 é:", 2 + 2)`
-
-Isso exibirá: `A soma de 2 + 2 é: 4`.
-
-# 3.1. Separador (sep)
-
-O parâmetro `sep` permite definir um separador diferente do espaço padrão. O separador pode ser qualquer texto, inclusive com várias letras. 
-
-**Obs.:** O separador deve ser colocado após todos os dados na lista de parâmetros da função `print()`.
-
-`print("A", "B", "C", sep="-")`
-
-Isso exibirá: `A-B-C`.
-
-# 3.2. Fim de Linha (end)
-
-Por padrão, o comando `print()` adiciona uma quebra de linha ao mostrar todos os valores listados como parâmetros. O parâmetro `end` permite alterar o comportamento padrão de terminar a impressão com uma nova linha. Por exemplo:
-
-```
-print("Olá", end=" ")
-print("mundo!")
-```
-
-Isso exibirá: `Olá mundo!` (na mesma linha).
-
 # 4. Função Input
 
 A função `input()` é usada para ler a entrada do usuário como uma string. Quando utiliza-se a função `input()`, o programa pausa a execução e espera o usuário digitar algo e pressionar Enter. Por exemplo:
