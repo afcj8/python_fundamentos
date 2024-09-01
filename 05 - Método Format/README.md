@@ -35,7 +35,7 @@ print("O valor de pi com três casas decimais é {:.3f}".format(3.14159265359)) 
 
 Saída: `O valor de pi com três casas decimais é 3.142`
 
-# 5.1. f-strings
+## 5.1. f-strings
 
 Embora o método `format()` seja muito útil, as f-strings introduzidas no Python 3.6 oferecem uma maneira ainda mais simples e rápida de formatar strings, usando uma sintaxe semelhante:
 
