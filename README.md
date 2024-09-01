@@ -2,17 +2,6 @@
 
 Python é uma linguagem de programação de alto nível e de uso geral, amplamente empregada em diversas áreas, como desenvolvimento web, ciência de dados, automação de tarefas e Machine Learning. Criada por Guido van Rossum e lançada em 1991, Python se destaca por sua filosofia de projeto, que enfatiza a legibilidade do código através de uma sintaxe clara e o uso de indentação significativa. Com tipagem dinâmica e suporte a gerenciamento automático de memória, Python oferece flexibilidade tanto para iniciantes quanto para desenvolvedores experientes, tornando-se uma escolha popular em projetos de todos os tipos e complexidades.
 
-# 11. Tuplas
-
-A tupla é uma estrutura de dados semelhante a uma lista, porém com a característica de ser imutável. Visualmente, a diferença principal é que uma lista é criada utilizando colchetes `[]`, enquanto a tupla é criada utilizando parênteses `()`. Quando se afirma que uma tupla é imutável, isso significa que, após sua criação, seus elementos não podem ser alterados, removidos ou adicionados. A seguir, apresenta-se a estrutura de uma tupla:
-
-```
-tupla = (1, 2, 3, 4, 5)
-print(tupla)    # (1, 2, 3, 4, 5)
-```
-
-Por ser imutável, a tupla é uma estrutura de dados mais rígida e segura, ideal para armazenar informações que devem permanecer inalteradas ao longo da execução do programa.
-
 # 12. Funções (def)
 
 As funções em Python permitem organizar e reutilizar código, encapsulando lógica em blocos que podem ser invocados conforme necessário. Isso facilita a manutenção e a legibilidade do código.
