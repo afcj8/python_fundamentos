@@ -21,7 +21,7 @@ print('Tipo de c:', type(c))
 print('Tipo de d:', type(d))
 ```
 
-## 1.1. Atribuições
+# 1.1. Atribuições
 
 A variável, como dito antes, tem o objetivo de guardar algum valor. Em Python, para se atribuir um valor a uma variável, deve-se seguir a seguinte sintaxe:
 
