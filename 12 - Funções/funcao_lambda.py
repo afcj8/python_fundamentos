@@ -3,4 +3,4 @@ quadrado = lambda x: x**2
 
 # usando a função lambda
 resultado = quadrado(4)
-print("Quadrado de 4:", resultado)
+print("Quadrado de 4:", resultado)  # Quadrado de 4: 16
