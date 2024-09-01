@@ -2,40 +2,6 @@
 
 Python é uma linguagem de programação de alto nível e de uso geral, amplamente empregada em diversas áreas, como desenvolvimento web, ciência de dados, automação de tarefas e Machine Learning. Criada por Guido van Rossum e lançada em 1991, Python se destaca por sua filosofia de projeto, que enfatiza a legibilidade do código através de uma sintaxe clara e o uso de indentação significativa. Com tipagem dinâmica e suporte a gerenciamento automático de memória, Python oferece flexibilidade tanto para iniciantes quanto para desenvolvedores experientes, tornando-se uma escolha popular em projetos de todos os tipos e complexidades.
 
-# 4. Função Input
-
-A função `input()` é usada para ler a entrada do usuário como uma string. Quando utiliza-se a função `input()`, o programa pausa a execução e espera o usuário digitar algo e pressionar Enter. Por exemplo:
-
-```
-nome = input("Qual é o seu nome? ")
-print("Olá,", nome)
-```
-
-Nesse exemplo, o programa pergunta ao usuário "Qual é o seu nome?", e o valor digitado é armazenado na variável `nome`. Em seguida, ele exibe "Olá, [nome]".
-
-# 4.1. Conversão
-
-Mesmo que o usuário digite um número, o valor retornado será uma string. Se precisar de um número, é necessário converter a entrada com funções como `int()` ou `float()`:
-
-```
-idade = int(input("Quantos anos você tem? "))
-print("Você tem", idade, "anos")
-```
-
-Aqui, a entrada do usuário será convertida para um inteiro.
-
-# 4.2. Entrada múltipla
-
-Caso seja necessário obter várias entradas de uma única vez, pode-se utilizar a função `split()` em conjunto com `map()` para separar e converter os valores:
-
-```
-numeros = input("Digite dois números separados por espaço: ").split()
-num1, num2 = map(int, numeros)
-print("A soma dos números é:", num1 + num2)
-```
-
-Neste exemplo, o usuário digita dois números separados por espaço. A função `split()` divide a string em uma lista, e `map()` é usado para converter cada item da lista em um inteiro.
-
 # 5. Método Format
 
 O método `format()` em Python é utilizado para formatar strings de maneira flexível e poderosa, permitindo a inserção de variáveis ou valores em uma string de forma controlada e organizada. Ele oferece uma maneira mais legível e sofisticada de combinar strings e variáveis do que simplesmente concatená-las com o operador `+`.
