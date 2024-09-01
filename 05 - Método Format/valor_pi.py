@@ -1,0 +1,1 @@
+print("O valor de pi com três casas decimais é {:.3f}".format(3.14159265359))   # 3.142
